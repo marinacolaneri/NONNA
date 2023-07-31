@@ -1,0 +1,371 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+
+}
+
+
+
+.textos-header {
+    color: red;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    
+}
+.textos-header p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0%;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+    
+}
+/* informacion-sobre-nosotros */
+
+.titulo{
+    color: white;
+    background-color:  #00acd6;
+    padding-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    
+}
+
+
+.nosotros-info{
+
+    padding-top: 15px;
+}
+.nosotros-img img
+{
+    width: 250px;
+    height: 290px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+ h3{
+   
+   background-color: rgb(79, 110, 196);
+   color: white;
+     font-size: 15px;
+    font-style: italic;
+    display: inline-block;
+   padding: 5px;
+   margin-right: 10px;
+   margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+}
+.nosotros p{
+    color: black;
+    display:flex;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 8px;
+    text-align: left;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.nosotros-img{
+
+    float: left;
+}
+
+ 
+/* Header */
+
+header {
+    width: 100%;
+    height: 400px;
+    background-color:  #337ab7;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    text-align: right;
+    padding: 25px 40px 0 0;
+}
+nav > a{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+/* footer */
+
+footer{
+    margin-top: 20px;
+}
+
+.titulo1{
+    color: white;
+    background-color: #00acd6;
+    padding-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    text-align: center;
+    
+}
+
+
+
+.contenedor-fondo{
+    background-color: lightgray;
+    width: 100%;
+    margin: auto;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contactar
+{
+    width: 30%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: center;
+    padding-left: 250px;
+    
+}
+.contactar1
+{
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    flex-direction: row;
+    align-items: baseline;
+    text-align: center;
+    overflow: hidden;
+}
+#img1{
+    width: 50px;
+    height: 50px;
+}
+#img2{
+    width: 50px;
+    height: 50px;
+}
+.ubicacion{
+    width: 400px;
+    height: 200px;
+}   
+
+
+/* header pages*/
+
+#superior{
+    width: 100%;
+    height: 60px;
+    background-color: #337ab7;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo-servicios{
+    color: #053d63;
+    padding-bottom: 10px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-align: center;
+
+}
+
+/* nuestros-servicios */
+
+
+main .nuestros-servicios div{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.nuestros-servicios div .imagen-texto{
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.nuestros-servicios div .imagen-texto h2{
+    color:#0a6075;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.nuestros-servicios div .imagen-texto p, ul> li{
+ 
+    margin-top: 20px;
+}
+main section img{
+    width: 500px;   
+    height: 400px;
+    padding: 15px;
+
+}
+
+/* turnos */
+
+form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.turnos{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px grey;
+    border-radius: 15px;
+    text-align: center;
+    width: 500px;
+}
+
+.reserva{
+    color:#053d63; 
+    text-decoration: underline;
+    font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #82daf0;
+    
+}
+.btn{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #4da6bd;
+    color: white;
+}
+.btn:hover{
+    color: #053d63;
+    background-color: #2a7183;
+    
+}
+
+/* presupuesto */   
+
+.presupuesto{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px grey;
+    border-radius: 15px;
+    text-align: center;
+    width: 700px;
+    background-color: rgb(19, 130, 163);
+}
+
+ .titulo-presupuesto{
+    color:#053d63; 
+    text-decoration: underline;
+    font-size: 40px;
+    padding-bottom: 30px;
+
+ }   
+
+ .formulario-presupuesto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}   
+    
+.validez{
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+    
+    
+/* quienes somos */
+
+.quienes-somos{
+    
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  
+    justify-items: stretch;
+    align-items: stretch;
+    
+    
+}
+
+.sobre-nos{
+    background-color: rgb(7, 102, 7);
+    padding: 20px;
+    max-width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    
+}
+.texto-sobre-nos{
+    background-color: white;
+    padding: 10px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+ 
+}
+
+.sobre-nos2{
+    background-color: red;
+    padding: 10px;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    max-width: 100%;
+}
